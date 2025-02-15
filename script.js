@@ -17,7 +17,7 @@ let validate = (e)=>{
 	e.preventDefault()
 	if(!age || !name){
 		btn.disabled = true
-		alert("Please enter valid details.")
+		alert("Please enter valid details")
 	}
 	if(age>18 && name.length>3){
 		setTimeout(()=>{
